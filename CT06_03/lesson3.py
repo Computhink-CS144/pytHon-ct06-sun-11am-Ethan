@@ -27,9 +27,16 @@
 # print(( 50 - 10 ) *3)
 # print(100/4)
 # print((3+4)*5-(10/2))
-print( 2 * 15 )
-total = 96 + (3*18) + (6*2)
+# print( 2 * 15 )
+# total = 96 + (3*18) + (6*2)
+# service_charge = 10/100 * total
+# total = total + service_charge
+# total = total -25
+# print(total)
+total = (100*5) + (8*20) + (20*2.5)
 service_charge = 10/100 * total
 total = total + service_charge
-total = total -25
-print(total)
+gst = 9/100 * total
+print(gst)
+total = total + gst
+print( "$" , round(total,1))
