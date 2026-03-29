@@ -68,3 +68,18 @@
 #     print("Correct!")
 # else:
 #     print("Incorrect. The correct answer is " + str(num1 + num2) + ".")
+
+#                       RIP : Task 5
+
+#              AWNSER for task 6
+# numtimes = input("How many times do you want to be quizzed? ")
+# for count in range(1, int(numtimes) + 1):
+#     import random
+#     num1 = random.randint(1, 50)
+#     num2 = random.randint(1, 50)
+#     print("What is " + str(num1) + " x " + str(num2) + "?")
+#     answer = input("Your answer: ")
+#     if int(answer) == num1 * num2:
+#         print("Correct!")
+#     else:
+#         print("Incorrect. The correct answer is " + str(num1 * num2) + ".") 
