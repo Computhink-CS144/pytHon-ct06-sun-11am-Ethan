@@ -60,6 +60,22 @@
 # else:
 #     print("Incorrect. The correct answer is", num1 + num2)
 
+#      OR
+
+# import random
+# hidden = -1
+# reply = 0
+# while hidden == reply:
+#     num1 = random.randint(1, 10)
+#     num2 = random.randint(1, 10)
+#     question = f"What is {num1} + {num2}?"  
+# #    print(question)
+#     reply = input(question)
+#     reply = int(reply)
+#     if hidden == reply:
+#         print("Correct!")
+#     else:
+#         print("Incorrect. The correct answer is", num1 + num2 , ". Try another question.")
 # task 5b
 # score = 0
 # for i in range(15):
