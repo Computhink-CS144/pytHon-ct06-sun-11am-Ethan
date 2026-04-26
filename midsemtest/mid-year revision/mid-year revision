@@ -1,0 +1,36 @@
+# tested = variables, string op, ..... lists
+# recap :
+# recap 1
+#import time
+# num = 29
+# for i in range(29, 50):
+#     print(num)
+#     num = num + 1
+#     time.sleep(0.5)
+#recap 2
+# num2 = 99
+# while num2 > 64:
+#     print(num2)
+#     num2 = num2 - 1
+#     time.sleep(0.5)
+# riddle = input("what's a bear without any ears?")
+# if riddle == "b" or riddle == "B":
+#     print("correct")
+# else:
+#     print("YOU'RE DEAD WRONG!!!!!")
+# When use OR, MUST use boolean twice!!!!!
+#practiceQN
+closet = [
+    "pink dress",
+    "black shirt",
+    "black mini dress",
+    "purple head band",
+    "magenta scarf"
+        ]
+for item in closet:
+    print(item)
+closet[3] == "bling bling diamond ring"
+print(closet)
+del(closet[2])
+print(closet)
+closet.append("ear rings")

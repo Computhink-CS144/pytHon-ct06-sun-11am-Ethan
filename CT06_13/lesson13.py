@@ -23,6 +23,7 @@
 # print("End")
 
 # Task 1a
+("add apples, bread, carrots, dates, eggs, flour, grapes and honey to your grocery list.")
 groceries = []
 groceries.append(input("Enter a grocery item: "))
 continue_adding = input("Do you want to add another item? (y/n): ")
