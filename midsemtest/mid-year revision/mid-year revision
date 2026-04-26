@@ -1,7 +1,7 @@
 # tested = variables, string op, ..... lists
 # recap :
 # recap 1
-#import time
+import time
 # num = 29
 # for i in range(29, 50):
 #     print(num)
@@ -20,17 +20,23 @@
 #     print("YOU'RE DEAD WRONG!!!!!")
 # When use OR, MUST use boolean twice!!!!!
 #practiceQN
-closet = [
-    "pink dress",
-    "black shirt",
-    "black mini dress",
-    "purple head band",
-    "magenta scarf"
-        ]
-for item in closet:
-    print(item)
-closet[3] == "bling bling diamond ring"
-print(closet)
-del(closet[2])
-print(closet)
-closet.append("ear rings")
+# closet = [
+#     "pink dress",
+#     "black shirt",
+#     "black mini dress",
+#     "purple head band",
+#     "magenta scarf"
+#         ]
+# for item in closet:
+#     print(item)
+# closet[3] == "bling bling diamond ring"
+# print(closet)
+# del(closet[2])
+# print(closet)
+# closet.append("ear rings")
+counter = 15
+for i in range(counter , 1501):
+    if ((i % 15) == 0):
+        print(i)
+        time.sleep(0.1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950)
+# for things like this, use % (remainder when divided by _)
